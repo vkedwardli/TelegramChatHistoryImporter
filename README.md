@@ -9,16 +9,16 @@ Currently it supports:
 * Static WebP Sticker
 
 Briefly, Telegram Chat History Importer can turn your exported plaintext conversations into a 1:1 format from this:
-![](/Tutorial/chatlog.png)
+![](/blob/a47f212e1afaf960085f252acf77a61185e822f6/Tutorial/chatlog.png)
 
 Into this:
 
-![](/Tutorial/result.gif)
+![](/blob/a47f212e1afaf960085f252acf77a61185e822f6/Tutorial/result.gif)
 
 ## How to use?
 1. Export your WhatsApp conversation (with attachments as you wish)
 
-![](/Tutorial/export-whatsapp-chat.jpg)
+![](/blob/a47f212e1afaf960085f252acf77a61185e822f6/Tutorial/export-whatsapp-chat.jpg)
 
 2. Get your Bot API Key from @botfather
 3. Add your bot into a chat, and get the target `chatId`
