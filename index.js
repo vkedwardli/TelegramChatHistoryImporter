@@ -35,11 +35,11 @@ fs.readFile("_chat.txt", "utf8", async function(err, data) {
                           inline_keyboard: [[{ text: sender, callback_data:'1'}]]
                         })})
 
-                }else if(message.indexOf('jpg') != -1){
+                }else if( file.indexOf('PHOTO') != -1 || file.toLowerCase().indexOf('jpg') != -1 || file.toLowerCase().indexOf('jpeg') != -1 || file.toLowerCase().indexOf('png') != -1 ){
                     //image
                     await bot.sendPhoto(chatId, file, {caption:`<b>${sender}</b> <pre>${date}</pre>`, parse_mode:'HTML'})
 
-                }else if(message.indexOf('mp4') != -1){
+                }else if( file.indexOf('VIDEO') != -1 || file.toLowerCase().indexOf('mp4') != -1 ){
                     //video
                     await bot.sendVideo(chatId, file, {caption:`<b>${sender}</b> <pre>${date}</pre>`, parse_mode:'HTML'})
 
