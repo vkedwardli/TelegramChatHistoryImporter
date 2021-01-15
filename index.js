@@ -43,6 +43,10 @@ fs.readFile("_chat.txt", "utf8", async function(err, data) {
                     //video
                     await bot.sendVideo(chatId, file, {caption:`<b>${sender}</b> <pre>${date}</pre>`, parse_mode:'HTML'})
 
+                }else if( file.indexOf('AUDIO') != -1 || file.toLowerCase().indexOf('opus') != -1 ){
+                    //voice message
+                    await bot.sendVoice(chatId, file, {caption:`<b>${sender}</b> <pre>${date}</pre>`, parse_mode:'HTML'})
+
                 }else{
                     //file
                     await bot.sendDocument(chatId, file, {caption:`<b>${sender}</b> <pre>${date}</pre>`, parse_mode:'HTML'})
