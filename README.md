@@ -22,8 +22,8 @@ Into this:
 
 ![](https://github.com/vkedwardli/TelegramChatHistoryImporter/blob/a47f212e1afaf960085f252acf77a61185e822f6/Tutorial/export-whatsapp-chat.jpg)
 
-2. Get your Bot API Key from @botfather
-3. Add your bot into a chat, and get the target `chatId`
+2. Get your Bot API Key from @botfather ([Creating a new bot guide](https://core.telegram.org/bots#6-botfather))
+3. Add your bot into a chat, and get the target `chatId` (Use [@getidsbot](https://t.me/getidsbot) if you don't know how to use the API)
 4. Extract the WhatsApp zip contents into the project folder
 5. The bot will inject the history every 3 seconds (Bot rate limit for group)
 
