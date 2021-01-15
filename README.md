@@ -6,7 +6,9 @@ Currently it supports:
 * Message Timestamp
 * Photo (jpg)
 * Video (mp4)
-* Static WebP Sticker
+* Audio messages (opus)
+* Static WebP Stickers
+* All other attachments (pdf, etc)
 
 Briefly, Telegram Chat History Importer can turn your exported plaintext conversations into a 1:1 format from this:
 ![](https://github.com/vkedwardli/TelegramChatHistoryImporter/blob/a47f212e1afaf960085f252acf77a61185e822f6/Tutorial/chatlog.png)
